@@ -1,0 +1,186 @@
+html,
+body{
+	margin:0;
+	padding:0;
+	height:100%;
+	font-family: 'Roboto Slab', serif;
+	color:white;
+}
+#wrapper{
+	max-width: 1000px;
+	margin: 0 auto;
+	border-color: red;
+	background-image: url("../images/fondo5.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+header{
+	width:100%;
+	height:12%;
+	background-color: white;
+}  
+header img{
+	display: block;
+    max-width:24%;
+    max-height:95px;
+    width: auto;
+    height: auto;
+    padding-right:40%;
+	padding-left: 40%;
+}
+nav{
+	text-align: center;
+    background-color: black;
+}
+nav li{
+	display: inline-block;
+	margin:3% 5% 3% 5%;
+}
+.navlink{
+	font-size: 1.15em;
+	color:white;
+	display: inline;
+	text-decoration: none;
+}
+.navlink:hover {
+	color:#F0b823;
+}
+
+
+.asideitem a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.15em;
+	padding-top: 15%;
+
+}                      /* --------------  nav fin --------------*/
+
+h1 {
+	font-size: 2em;
+	margin-top:5%;
+	margin-left:2.5%;
+	
+}
+h2 {
+	font-size:1.5em;
+}
+section {
+	max-width: 55%;
+	float:left;
+	padding-bottom:100px;
+	line-height: 1.5;
+	margin-left: 5%;
+
+}
+article {
+	padding:3%;
+	text-align: justify;
+    text-justify: inter-word;
+}
+#art2
+{
+	padding-top:3%;
+}
+button                /*    ----------- button --------------    */
+{
+	background-color: #F0b823;
+	border:none;
+	position: relative;
+	left: 2.5%;
+	color:black;
+	font-size:0.75rem;
+}
+button a{
+	text-decoration: none;
+	color:black;
+	display: block;
+	width: 91px;
+	height: 16px;
+	text-align: center;
+	margin: 0 auto 0 auto;
+}
+button:hover{
+	color:gray;
+	background: rgba(240, 184, 35, 0.5);
+
+}                      /*-------------- button fin --------------   */
+#aside                 /*-------------- aside -------------- */
+{
+	float:right;
+	padding: 3% 5% 3% 5%;
+	top:20px;
+	margin: 10% 7% auto auto;
+	background-color: rgba(25,25,25,.5);
+}
+#aside ul
+{
+	padding: 2%;
+}
+.asideitem
+{
+	padding:1%;
+}
+.asideitem a:hover{
+	color:#F0b823;
+}
+
+.headlist
+{
+	padding:2%;
+	font-size:1.5em;
+    color:#f0b823;
+	padding-bottom: 5%;           /*  --------------  aside fin ---------   */
+}
+footer {
+	width:100%;
+	clear:both;
+	text-align: center;
+	font-size: 12px;
+	color:rgba(200,200,200,0.6);
+}
+
+@media screen and (max-width:575px) {        /* --------------  Responsive */
+
+	body {
+		background-color: #f0b823;
+
+	}
+	#wrapper{
+		text-align: center;
+		background-repeat: repeat-y;
+	}
+	nav li{
+		margin: 0;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		display: block;
+	}
+	h1{
+		margin-top:10%;
+	}
+	section{
+		max-width:90%;
+	}
+	button{
+		margin:3% 10% 0% 3%;
+		position:relative;
+		left:-35%;
+	}
+
+	#aside{
+		clear:both;
+		margin: 0 auto;
+		float:none;
+		text-align: center;
+		border:none;
+	}
+	#aside ul {
+		padding: 0;
+		display:block;
+	}
+	footer{
+         text-align:center;
+         padding:0 0 1%;
+	}
+}
+

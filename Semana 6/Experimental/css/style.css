@@ -1,0 +1,104 @@
+body
+{
+	text-align: center;
+	max-width:1000px;
+	width:90%;
+	margin:1% auto;
+	background-color:gold;
+}
+#box{
+	margin:0 auto;
+	padding:0 2%;
+}
+
+h1{
+	font-size:5em;
+	font-family: 'Slabo 27px', serif;
+	margin-top: 3%;
+	padding:5%;
+}
+
+#foto1{
+	width:45%;
+	float:left;
+	margin:5% 1%;
+	padding:1% 0;
+	border-top: 2px solid black;
+	border-bottom:2px solid black;
+}
+
+p{
+	width: 50%;
+	float:right;
+	margin:4.5% 0% 0% 0%;
+	text-align: justify;
+	padding:1% 1%;
+	border-top: 2px solid black;
+	border-bottom:2px solid black;
+	
+}
+
+#foto2{
+	width:98%;
+	height:600px;
+	clear:both;
+	display:inline-block;
+	border-top: 2px solid black;
+	border-bottom:2px solid black;
+	margin:0% 1%;
+	padding:1% 0;
+}
+footer{
+	width: 100%;
+	padding:2%;
+	text-align: center;
+	clear: both;
+	border-bottom:2px black solid;
+	font-family: 'Slabo 27px', serif;
+}
+
+@-webkit-keyframes coloranim{
+    0% {
+      background-color:rgba(0,0,0,100);
+    }
+    50% {
+      background-color:rgba(0,0,0,50);
+    }
+    100% {
+      background-color:rgba(0,0,0,0);
+    }
+  }
+
+  #box {
+    background-color:black;
+    width:30%;
+    height:auto;
+    -webkit-animation-name: coloranim;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction:alternate;
+    -webkit-animation-timing-function: ease-in-out;
+  } /* --------------------------box--------------------------*/
+
+  @-webkit-keyframes hache{
+    0% {
+      color:gold;
+    }
+    50% {
+      color:;
+    }
+    100% {
+      color:black;
+    }
+  }
+
+  h1{
+    color:gold;
+    width:100%;
+    height:auto;
+    -webkit-animation-name: hache;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction:alternate;
+    -webkit-animation-timing-function: ease-in-out;
+  }
