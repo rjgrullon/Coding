@@ -81,6 +81,32 @@ img:hover {
 a:hover{
 	color: #00CFAD;
 }
+
+@-webkit-keyframes coloranim {
+    0% {
+      border-color:rgba(255,255,255,1.0);
+    }
+    50% {
+       border-color:rgba(255,255,255,0.5);
+    }
+    100% {
+       border-color:rgba(255,255,255,1.0);
+    }
+  }
+
+  .box:hover { 
+    -webkit-animation-name:coloranim;
+  }
+
+  .box {
+  	border: rgba(255,255,255,0.7) solid 2px;
+    -webkit-animation-name: coloranim;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: 4;
+    -webkit-animation-direction:alternate;
+    -webkit-animation-timing-function: ease-in-out;
+  }
+
 @media screen and (max-width: 760px) {  /*-----------responsive--------*/
 
 header{
