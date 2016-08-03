@@ -1,0 +1,260 @@
+body{
+    text-align: center;
+    width: 100%;
+}
+
+#wrapper{
+    max-width:100%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+#wrapper2{
+    max-width:80%;
+    text-align: center;
+    margin: 0 auto;
+}
+#nav{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 1;
+    width: 100%;
+    background-color: rgba(248,242,255,0.7);
+}
+#nav ul li{
+    display: inline-block;
+    margin:0.5% 8%;
+    font-size: 1.2em;
+    font-family: 'Fjalla One', sans-serif;
+    color:rgb(76,72,95);
+}
+#nav ul li a{
+    text-decoration: none;
+    color:rgb(76,72,95);
+}
+
+#nav ul li a:hover{
+    color: rgb(156,152,175);
+}
+
+#nav ul li a:active{
+    color: #ccbf6b;
+}
+
+#aside{
+    left:95%;
+    top:5%;
+    text-align: right;
+    margin:10px;
+    position:fixed;
+    max-width: 75px;
+
+}
+
+#aside ul li{
+    display: inline-block;
+    margin:10px;
+
+}
+
+#aside ul li a img{
+    max-width: 15px;
+    max-height: 15px;
+}
+
+#fondo{
+    max-width:100%;
+}
+#fondo img{
+    width:100%;
+}
+
+#scroll{
+    width: 5%;
+    margin:30px auto;
+}
+
+#scroll img{
+    width: 100%;
+
+}
+
+#p405{
+    width:45%;
+    text-align: center;
+    display: inline-block;
+}
+#p405 img{
+    width:100%;
+}
+#p1{
+    width:45%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    font-family: 'Reem Kufi', sans-serif;
+    margin-top: 7%;
+    margin-left: 20px;
+    line-height: 1.5;
+    color:rgb(76,72,95);
+    border-left: rgb(76,72,95) solid 2px;
+}
+#p2{
+    width:35%;
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Reem Kufi', sans-serif;
+    margin-top: 40px;
+    margin-right: 20px;
+    padding: 20px;
+    line-height: 1.5;
+    color:rgb(76,72,95);
+    border-right: rgb(76,72,95) solid 2px;
+}
+a{
+text-decoration: none;
+font-size: 0.6em;
+color:rgb(136,132,155);
+
+}
+h3{
+    font-size: 2em;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#p4052{
+    width:55%;
+    text-align: center;
+    display: inline-block;
+}
+
+#p4052 img{
+    width: 100%;
+}
+
+#vid{
+   width:92%; 
+   display: inline-block;
+}
+footer{
+    width:72%;
+    margin: 10px auto;
+    padding:10px;
+    text-align: center;
+    border-top: rgb(76,72,95) solid 2px;
+}
+footer p{
+    font-size: 0.8em;
+    font-family: 'Fjalla One', sans-serif;
+    color:rgb(76,72,95);
+}
+
+@media screen and (max-width: 840px) {  /*-----------responsive--------*/
+#p1{
+    width:75%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: none;
+    padding: 10px;
+    font-family: 'Reem Kufi', sans-serif;
+    margin: 0 auto;
+    line-height: 1.5;
+    color:rgb(76,72,95);
+    border-top:rgb(76,72,95) solid 2px;
+    border-left: none;
+}
+#p405{
+    width:65%;
+    text-align: center;
+    display: inline-block;
+}
+#p2{
+    width:75%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: none;
+    padding: 10px;
+    font-family: 'Reem Kufi', sans-serif;
+    margin: 0 auto;
+    line-height: 1.5;
+    color:rgb(76,72,95);
+    border-bottom:rgb(76,72,95) solid 2px;
+    border-right: none;
+}
+#aside{
+    left:87%;
+    top:10%;
+    text-align: right;
+    margin:30px;
+    position:fixed;
+    max-width: 75px;
+
+}
+
+@media screen and (max-width: 431px) {  /*-----------responsive--------*/
+#nav{
+display: inline-block;
+position: relative;
+}
+#nav ul li{
+    display: inline-block;
+    font-size: 1.4em;
+    font-family: 'Fjalla One', sans-serif;
+    color:rgb(76,72,95);
+    width:100%;
+}
+
+#fondo{
+    display:inline-block;
+}
+#p1{
+    width:75%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: none;
+    padding: 10px;
+    font-family: 'Reem Kufi', sans-serif;
+    margin: 0 auto;
+    line-height: 1.5;
+    color:rgb(76,72,95);
+    border-top:rgb(76,72,95) solid 2px;
+    border-left: none;
+}
+#p2{
+    width:75%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: none;
+    padding: 10px;
+    font-family: 'Reem Kufi', sans-serif;
+    margin: 0 auto;
+    line-height: 1.5;
+    color:rgb(76,72,95);
+    border-bottom:rgb(76,72,95) solid 2px;
+    border-right: none;
+}
+#aside{
+    left:80%;
+    top:75%;
+    text-align: right;
+    margin:30px;
+    position:fixed;
+    max-width: 75px;
+
+}
+#aside ul li{
+    display: inline-block;
+    margin:10px;
+
+}
+#aside ul li a img{
+    max-width: 15px;
+    max-height: 15px;
+}
+
+
+}
+
