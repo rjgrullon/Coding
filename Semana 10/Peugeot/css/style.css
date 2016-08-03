@@ -43,12 +43,12 @@ body{
 }
 
 #aside{
-    left:95%;
+    right:30px;
     top:5%;
     text-align: right;
     margin:10px;
-    position:fixed;
-    max-width: 75px;
+    position:absolute;
+    max-width: 45px;
 
 }
 
@@ -137,10 +137,20 @@ h3{
 
 #vid{
    width:92%; 
-   display: inline-block;
+   position: relative;
+   width: 100%;
+   height: 0;
+   padding-bottom: 56.25%;
+}
+iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 footer{
-    width:72%;
+    width:79%;
     margin: 10px auto;
     padding:10px;
     text-align: center;
@@ -185,15 +195,14 @@ footer p{
     border-right: none;
 }
 #aside{
-    left:87%;
-    top:10%;
+    right:5px;
+    top:5%;
     text-align: right;
-    margin:30px;
-    position:fixed;
-    max-width: 75px;
+    margin:10px 0;
+    position:absolute;
+    max-width: 35px;
 
 }
-
 @media screen and (max-width: 431px) {  /*-----------responsive--------*/
 #nav{
 display: inline-block;
@@ -237,24 +246,9 @@ position: relative;
     border-right: none;
 }
 #aside{
-    left:80%;
-    top:75%;
-    text-align: right;
-    margin:30px;
-    position:fixed;
-    max-width: 75px;
-
+    margin-top: 20%;
 }
-#aside ul li{
-    display: inline-block;
-    margin:10px;
-
-}
-#aside ul li a img{
-    max-width: 15px;
-    max-height: 15px;
 }
 
 
-}
 
