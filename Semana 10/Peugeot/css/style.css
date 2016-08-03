@@ -43,7 +43,7 @@ body{
 }
 
 #aside{
-    right:30px;
+    right:20px;
     top:5%;
     text-align: right;
     margin:10px;
@@ -196,9 +196,9 @@ footer p{
 }
 #aside{
     right:5px;
-    top:5%;
+    top:420px;
     text-align: right;
-    margin:10px 0;
+    margin:60px 0;
     position:absolute;
     max-width: 35px;
 
@@ -246,7 +246,7 @@ position: relative;
     border-right: none;
 }
 #aside{
-    margin-top: 20%;
+    margin-top: 10px;
 }
 }
 
