@@ -277,11 +277,11 @@ footer a img{
 	margin: 40px;
 }
 
-#scroll{
+#scrollt{
 	font-family: 'Quicksand', sans-serif;
 	font-size: 1em;
 	width:60px;
-	margin: 80px 50% 20px 50%;
+	margin: 80px 45% 20px 45%;
 	display: inline-block;
 	transition: all 1s ease;
 	padding: 10px;
